@@ -14,6 +14,14 @@ public class Book {
     private String title;
     private String description;
 
+    public Book() {
+    }
+
+    public Book(String title, String description) {
+        this.title = title;
+        this.description = description;
+    }
+
     public Integer getId() {
         return id;
     }
